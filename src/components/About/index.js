@@ -28,13 +28,14 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ullam saepe ratione eveniet quidem cupiditate dolorum, delectus dignissimos suscipit modi assumenda rerum eum repellat voluptas sint cumque inventore fuga asperiores!
+                    I am a soon to be graduate from George Mason University with a BS in Computer Science
                 </p>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde fugiat consectetur ut nobis recusandae, ab dolor beatae officiis quam ex architecto quasi odit enim reiciendis at iure nemo accusantium ullam?
+                    I have a serious passion for UI effects and creating intuitive and dynamic user experiences
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, nostrum. Mollitia inventore facere nobis fugiat molestiae sed voluptates dolor nulla eius, temporibus officiis hic voluptatum repellendus suscipit eum! Aliquid, praesentium?
+                    I'm constantly learning and trying new technologies to imporve my skillset and I am always
+                    left awestruck of what the tech community is capable of producing!
                 </p>
 
             </div>

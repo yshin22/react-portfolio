@@ -50,7 +50,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi animi laudantium eius, repellendus blanditiis dignissimos officiis, asperiores doloribus voluptates adipisci at nulla illo, debitis nihil laboriosam sint voluptate dolore consequatur.
+                        Have any questions?
                     </p>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>
@@ -61,7 +61,6 @@ const Contact = () => {
                                 </li>
                                 <li className='half'>
                                     <input type="email" name='email' placeholder='Email' required/>
-
                                 </li>
                                 <li>
                                     <input placeholder="Subject" type="text" name="subject" required/>
