@@ -4,7 +4,7 @@ import { useState } from 'react'
 import LogoY from '../../assets/images/Y-logo3.png'
 import LogoSubtitle from '../../assets/images/long-name2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faSuitcase, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 import {
@@ -27,6 +27,9 @@ const Sidebar = () => {
             </NavLink>
             <NavLink end activeclassname="active" className="about-link" to="/about" onClick={() => setShowNav(false)} >
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+            </NavLink>
+            <NavLink end activeclassname="active" className="portfolio-link" to="/portfolio" onClick={() => setShowNav(false)}>
+                <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
             </NavLink>
             <NavLink end activeclassname="active" className="contact-link" to="/contact" onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />

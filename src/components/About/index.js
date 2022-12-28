@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngular, faCss3, faGithub, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
+import profpic from '../../assets/images/ym_profpic.JPG';
 
 
 const About = () => {
@@ -28,7 +29,7 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    I am a soon to be graduate from George Mason University with a BS in Computer Science
+                    I recently graduated from George Mason University with a BS in Computer Science
                 </p>
                 <p>
                     I have a serious passion for UI effects and creating intuitive and dynamic user experiences
@@ -38,9 +39,22 @@ const About = () => {
                     left awestruck of what the tech community is capable of producing!
                 </p>
 
+                <ul className='like'>What I like</ul>
+                <ul>Coffee things</ul>
+                <ul>Cars</ul>
+                <ul>Gravel bikes</ul>
+
+                <ul className='learning'>What I'm learning</ul>
+                <ul>React</ul>
+                <ul>to pull more consistent espresso</ul>
+                <ul>web development</ul>
             </div>
 
-            <div className='stage-cube-cont'>
+            <div className='prof-pic'>
+                <img src={profpic} alt='prfile picture'/>
+            </div>
+
+            {/* <div className='stage-cube-cont'>
                 <div className='cubespinner'>
                     <div className='face1'>
                         <FontAwesomeIcon icon={faAngular} color="#DD0031" /> 
@@ -61,10 +75,10 @@ const About = () => {
                         <FontAwesomeIcon icon={faGithub} color="#EC4D28" /> 
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
-        <Loader type="pacman" />
+        <Loader type="ball-rotate" />
         </>
     )
 }

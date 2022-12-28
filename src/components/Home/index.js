@@ -42,7 +42,7 @@ const Home = () => {
             <Logo></Logo>
 
         </div>
-        <Loader type='pacman' />
+        <Loader type='ball-rotate' />
         </>
     );
 

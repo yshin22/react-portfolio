@@ -39,7 +39,8 @@
   }
 
   .about-page,
-    .contact-page {
+    .contact-page,
+    .portfolio-page {
       .text-zone {
         position: absolute;
         left: 10%;
@@ -49,6 +50,7 @@
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
+        overflow: scroll;
 
         h1 {
           font-size: 53px;
@@ -65,7 +67,7 @@
             font-family: 'La Belle Aurore';
             font-size: 18px;
             position: absolute;
-            margin-top: -10px;
+            margin-top: 0px;
             left: -10px;
             opacity: 0.6;
             line-height: 18px;
@@ -82,6 +84,47 @@
             margin-left: 20px;
             opacity: 0.6;
           
+          }
+        }
+
+        ul.learning,ul.like {
+          font-size: 20px;
+          color: #ffd700;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 700;
+          padding: 0;
+        } 
+        ul {
+          font-size: 20px;
+          color: #fff;
+          font-family: sans-serif;
+          font-weight: 300;
+          padding: 0;
+          animation: pulse 1s;
+
+          &:nth-of-type(1) {
+            animation-delay: 1.4s;
+          }
+          &:nth-of-type(2) {
+            animation-delay: 1.5s;
+          }
+          &:nth-of-type(3) {
+            animation-delay: 1.6s;
+          }
+          &:nth-of-type(4) {
+            animation-delay: 1.7s;
+          }
+          &:nth-of-type(5) {
+            animation-delay: 1.8s;
+          }
+          &:nth-of-type(6) {
+            animation-delay: 1.9s;
+          }
+          &:nth-of-type(7) {
+            animation-delay: 2s;
+          }
+          &:nth-of-type(8) {
+            animation-delay: 2.1s;
           }
         }
 
