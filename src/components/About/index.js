@@ -51,7 +51,7 @@ const About = () => {
             </div>
 
             <div className='prof-pic'>
-                <img src={profpic} alt='prfile picture'/>
+                <img src={profpic} alt='profile picture'/>
             </div>
 
             {/* <div className='stage-cube-cont'>

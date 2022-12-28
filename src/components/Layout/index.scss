@@ -22,7 +22,7 @@
   .bottom-tag-html {
     margin-left: -20px;
   }
-  
+
   .container {
     width: 100%;
     will-change: contents;
@@ -36,11 +36,15 @@
     transform-style: preserve-3d;
     animation: fadeIn .5s forwards;
     animation-delay: 1s;
+
   }
 
   .about-page,
     .contact-page,
     .portfolio-page {
+      .text-zone::-webkit-scrollbar {
+        display: none;
+      }
       .text-zone {
         position: absolute;
         left: 10%;
@@ -51,6 +55,7 @@
         display: table-cell;
         max-height: 90%;
         overflow: scroll;
+        
 
         h1 {
           font-size: 53px;
@@ -159,16 +164,38 @@
       }
     }
 
+    .portfolio-page {
+      .text-zone {
+        width: 82%;
+        height: 100%;
+
+        img {
+          width: 1550px;
+          height: 1250px;
+        }
+      }
+    }
+
     @media screen and (max-width: 1200px) {
       .page {
         position: initial;
       }
     
+      .container.about-page::-webkit-scrollbar {
+        display: none;
+      }
       .container {
         position: initial;
         height: auto;
         min-height: auto;
-    
+
+        &.about-page {
+          overflow: scroll;
+        }
+
+        &.home-page {
+          margin-top:24%;
+        }
         &.contact-page,
         &.about-page,
         &.portfolio-page {
