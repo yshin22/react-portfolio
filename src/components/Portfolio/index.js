@@ -1,8 +1,8 @@
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 import { useEffect, useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngular, faCss3, faGithub, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faAngular, faCss3, faGithub, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 import Loader from 'react-loaders';
 import resume from '../../assets/images/resume.jpg'
 
